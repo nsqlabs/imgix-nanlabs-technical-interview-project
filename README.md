@@ -23,6 +23,8 @@
 
 ## The challenge
 
+<center><img src="https://c.tenor.com/fMMUO2HnmCUAAAAd/muscle-muscle-gain.gif"></center>
+
 Imgix is ​​an image processing service and CDN that has an easy-to-use API via querystring. it exposes many important transformations and features to make it easy to have variations on a base image or to be able to apply different types of optimizations to images.
 
 In addition, it has a sandbox, where we can test each of the features that its api has, which is a powerful tool because we are generating the final image through parameters in real time 🔥, but with the disadvantage that it is difficult to edit when we have many transformations applied
@@ -31,7 +33,7 @@ In addition, it has a sandbox, where we can test each of the features that its a
 
 The idea of ​​this exercise is to improve the user experience of this sandbox, creating a new UI that allows us to test some of the imgix transformations in a more user-friendly way and to be able to generate the final url with all the applied changes. Apart from this, it is also expected that the new UI includes the history feature (or undo and redo) so that the user can easily navigate to a previous state on the image that is currently being processed.
 
-The list of test images can be consumed by the following endpoint and optionally it is expected to have an input in the UI that allows editing an image that is outside of this list (note the image has to be uploaded or linked to the imgix service)
+The list of test images can be consumed by the following [endpoint](https://storage.googleapis.com/nanlabs-engineering-technical-interviews/imgix-samples-list.json) and optionally it is expected to have an input in the UI that allows editing an image that is outside of this list (note the image has to be uploaded or linked to the imgix service)
 
 The new user interface is minimally expected to include rotation and adjustment options. Any other options are also welcome 😉. The User interface it’s up to you, feel free to choose any style guide that best suits you or you feel comfortable. We attached a reference block frame below as a reference. The ui should have a minimum degree of responsiveness and it is optional to take it to create something more complex.
 
@@ -109,6 +111,8 @@ TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. 
 
 ## Main challenges
 
+<center><img src="https://c.tenor.com/ilPf7Nnj5CAAAAAC/computer-drinking.gif"></center>
+
 One of the main challenges was dealing with state changes in a complex application and managing those changes across multiple components. This can be especially difficult if different parts of the codebase need to be aware of different state changes. At the beginning I thought that using redux from scratch was a bit overkill and that managing the whole state into a parent component would be easier but when I started to design the app I noticed that actually redux is perfect for solving those kind of problems.
 
 Another challenge I faced was that I proposed myself try a few layout using Grids with ended up being a more than satisfactory test that leaded me to discover a [visual tool](https://grid.layoutit.com/) (I'm a visual learner XD) for making the process easier so this also was a learning experience in that sense.
@@ -122,7 +126,7 @@ Finally, I struggled to make the application responsive, **leaving that part out
 ## Installation guide
 
 1. Clone the repository
-2. Create the `.env.local` file in the root foolder by following the template in the `.env.local.example` template
+2. Create the `.env.local` file in the root foolder by following the template in the `.env.local.example` template (🤫 this is the [endpoint](https://storage.googleapis.com/nanlabs-engineering-technical-interviews/imgix-samples-list.json) 🤫)
 3. Inside the project-folder run `npm install`
 
 ## How to run it
