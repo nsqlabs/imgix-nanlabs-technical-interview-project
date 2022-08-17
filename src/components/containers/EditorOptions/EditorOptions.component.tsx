@@ -57,10 +57,6 @@ const EditorOptions = () => {
                 key={option.urlSlash}
                 options={option.options}
                 onChange={(selectedOption: string | number) => {
-                  console.log({
-                    prop: option.urlSlash as any,
-                    value: selectedOption,
-                  });
                   dispatch(
                     setRotationProperty({
                       prop: option.urlSlash as any,
