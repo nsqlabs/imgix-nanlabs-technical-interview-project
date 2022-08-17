@@ -1,0 +1,18 @@
+.image-preview-gallery {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 0px;
+  grid-template-areas:
+    'uploaded-images'
+    'sample-images';
+}
+
+.uploaded-images {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.sample-images {
+  grid-area: 2 / 1 / 3 / 2;
+}
