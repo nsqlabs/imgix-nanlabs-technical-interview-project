@@ -20,16 +20,17 @@
   - [How to run it](#how-to-run-it)
 
 # Introduction
+![Untitled design (20)](https://user-images.githubusercontent.com/90852678/185264361-2ca560e8-c382-4e49-99ac-389c6f597002.png)
 
-## The challenge
-
-<center><img src="https://c.tenor.com/fMMUO2HnmCUAAAAd/muscle-muscle-gain.gif"></center>
+## Project purpose
 
 Imgix is ​​an image processing service and CDN that has an easy-to-use API via querystring. it exposes many important transformations and features to make it easy to have variations on a base image or to be able to apply different types of optimizations to images.
 
 In addition, it has a sandbox, where we can test each of the features that its api has, which is a powerful tool because we are generating the final image through parameters in real time 🔥, but with the disadvantage that it is difficult to edit when we have many transformations applied
 
-## Project purpose
+
+## The challenge
+<center><img src="https://c.tenor.com/fMMUO2HnmCUAAAAd/muscle-muscle-gain.gif"></center>
 
 The idea of ​​this exercise is to improve the user experience of this sandbox, creating a new UI that allows us to test some of the imgix transformations in a more user-friendly way and to be able to generate the final url with all the applied changes. Apart from this, it is also expected that the new UI includes the history feature (or undo and redo) so that the user can easily navigate to a previous state on the image that is currently being processed.
 
