@@ -8,7 +8,7 @@ import {
   setRotationProperty,
 } from 'components/containers/EditorOptions/EditorOptions.slice';
 import { useDispatch, useSelector } from 'react-redux';
-import { EditorOptionProperty } from 'types/EditorOption';
+import { AdjustmentProperty, EditorOptionProperty, RotationProperty } from 'types/EditorOption';
 import { selectImageURL } from 'components/containers/EditorPreview/EditorPreview.slice';
 import OptionsField from 'components/common/OptionsField';
 
@@ -32,7 +32,7 @@ const EditorOptions = () => {
                 const value = e.target.value;
                 dispatch(
                   setAdjustmentProperty({
-                    prop: option.urlSlash as any,
+                    prop: option.urlSlash as AdjustmentProperty,
                     value: option.inputType == 'number' ? Number(value) : value,
                   }),
                 );
@@ -59,7 +59,7 @@ const EditorOptions = () => {
                 onChange={(selectedOption: string | number) => {
                   dispatch(
                     setRotationProperty({
-                      prop: option.urlSlash as any,
+                      prop: option.urlSlash as RotationProperty,
                       value: selectedOption,
                     }),
                   );
