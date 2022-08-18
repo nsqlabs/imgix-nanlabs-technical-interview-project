@@ -20,6 +20,7 @@
   - [How to run it](#how-to-run-it)
 
 # Introduction
+![Untitled design (20)](https://user-images.githubusercontent.com/90852678/185264361-2ca560e8-c382-4e49-99ac-389c6f597002.png)
 
 ## The challenge
 
